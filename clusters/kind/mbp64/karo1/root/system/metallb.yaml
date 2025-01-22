@@ -1,0 +1,9 @@
+
+
+releases:
+  name: metallb
+  service: /system/metallb:1.0.0
+  namespace: metallb
+
+
+
