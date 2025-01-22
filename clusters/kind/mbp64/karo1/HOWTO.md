@@ -49,7 +49,7 @@ kind create cluster --config /tmp/karo1-config.yaml
 ```
 export GITHUB_USER=SergeAlexandre
 export GITHUB_REPO=kar-infra-sa
-export GIT_BRANCH=v0.6.0
+export GIT_BRANCH=work1
 export GITHUB_TOKEN=
 
 flux bootstrap github \
@@ -57,6 +57,8 @@ flux bootstrap github \
 --repository=${GITHUB_REPO} \
 --branch=${GIT_BRANCH} \
 --interval 15s \
---personnal \
+--personal \
 --read-write-key \
 --path=clusters/kind/mbp64/karo1/flux
+
+
