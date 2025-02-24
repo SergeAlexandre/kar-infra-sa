@@ -1,0 +1,10 @@
+apiVersion: v1alpha1
+
+
+releases:
+  - name: cert-manager
+    service: /system/cert-manager:1.0.0
+    namespace: cert-manager
+
+
+

@@ -1,0 +1,14 @@
+# Context part shared by all kind based clusters
+apiVersion: v1alpha1
+
+context:
+
+  storageClass:
+    data: standard
+    workspace: standard
+
+  # This list is provided as a map of bool, to allow merging
+  _clusterRoles:
+    blockStorage: true
+
+
